@@ -1,0 +1,32 @@
+<html lang="en">
+
+<head>
+    <title>Practice</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div id="inputbox">
+        <input type="text" name="input-box" class="inputBox" id="findid" placeholder="enter city or age">
+        <button id="findbutton" class="button" onclick="findPerson()">Find</button>
+    </div>
+    <div>
+        <h1 class="title">Results</h1>
+        <ul id="resultsContainer"></ul>
+    </div>
+    <div>
+        <h2 class="title">Add People</h2>
+        <input type="text" name="namebox" class="nameBox" id="addName" placeholder="name">
+        <input type="text" name="lastnamebox" class="lastnameBox" id="addLastname" placeholder="lastname">
+        <input type="text" name="citybox" class="cityBox" id="addCity" placeholder="city">
+        <input type="text" name="agebox" class="ageBox" id="addAge" placeholder="age">
+        <button id="addPerson" class="button" onclick="addPerson()">Add</button>
+    </div>
+    <div></div>
+    <div>
+        <h3 class="title">People (sorted by age)</h3>
+        <ul id="peopleContainer"></ul>
+        <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
